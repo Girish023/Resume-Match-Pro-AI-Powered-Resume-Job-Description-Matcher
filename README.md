@@ -26,7 +26,7 @@ An AI-powered tool that intelligently parses resumes and recommends top job role
 
 | Resume Upload | Job Match Results | Skill Gap & Timeline |
 |---------------|-------------------|-----------------------|
-| ![upload](assets/upload.png) | ![results](assets/results.png) | ![timeline](assets/timeline.png) |
+| ![upload] | ![results] | ![timeline] |
 
 ---
 
@@ -80,11 +80,10 @@ resume-match-pro/
 ### 🔧 Requirements
 
 - Python 3.8+
-- `pip`
+- pip
 
 ### 🔌 Clone the Repository
 
-```bash
 git clone https://github.com/Girish023/Resume-Match-Pro-AI-Powered-Resume-Job-Description-Matcher.git
 cd Resume-Match-Pro-AI-Powered-Resume-Job-Description-Matcher
 
@@ -116,12 +115,10 @@ Data Scientist
 AI Engineer
 Backend Developer
 NLP Engineer
-
-These can be expanded easily in app.py.
+NOTE: These can be expanded easily in app.py.
 
 🌐 Internationalization
 ✅ English
-
 ✅ Spanish
 Change language from the sidebar dropdown.
 
@@ -150,22 +147,13 @@ This project is licensed under the MIT License.
 
 🙌 Acknowledgments
 HuggingFace for Sentence Transformers
-
 spaCy for NLP
-
 Streamlit for interactive UI
-
 Plotly for charts
 
 🤝 Contributing
 Pull requests, issues, and feature suggestions are welcome!
-
 Fork the repo
-
 Create a new branch
-
 Make changes
-
 Submit a PR 🎉
-
-
