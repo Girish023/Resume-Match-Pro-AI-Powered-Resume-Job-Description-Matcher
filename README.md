@@ -32,14 +32,8 @@ An AI-powered tool that intelligently parses resumes and recommends top job role
 
 ## 🏗️ Project Structure
 
-resume-match-pro/
-├── app.py # Flask backend API
-├── new.py # Streamlit frontend interface
-├── uploads/ # Uploaded resumes (temporary storage)
-├── assets/ # (optional) Demo screenshots
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── saved_resume.pdf # (optional) Saved resume session
+<pre> ``` resume-match-pro/ ├── app.py # Flask backend API ├── new.py # Streamlit frontend interface ├── uploads/ # Uploaded resumes (temporary storage) ├── assets/ # (optional) Demo screenshots ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── saved_resume.pdf # (optional) Saved resume session ``` </pre>
+This structure uses a <pre> block to preserve spacing and formatting, and includes consistent indentation and comments. Let me know if you'd like to add files like .env, .gitignore, or a Docker setup.
 
 
 
