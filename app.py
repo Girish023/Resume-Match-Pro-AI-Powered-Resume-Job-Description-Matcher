@@ -105,7 +105,7 @@ def upload_resume():
     filepath = os.path.join(UPLOAD_FOLDER, filename)
     file.save(filepath)
 
-    # ✅ REPLACEMENT: Call enhanced parsing + matching
+    # ✅ REPLACEMENT: Call enhanced parsing + matching quality
     resume_summary, entities = parse_resume(filepath)
     matches = match_jobs(resume_summary, entities["skills"])  # 🔥 improved!
 
