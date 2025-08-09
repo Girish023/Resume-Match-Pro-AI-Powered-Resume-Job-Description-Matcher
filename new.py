@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 import os
 import io
 
-# ✅ This MUST come immediately after imports
+# ✅ This MUST come immediately after import
 st.set_page_config(
     page_title="💼 Advanced Resume Matcher",
     layout="wide",
@@ -377,5 +377,6 @@ with right_col:
                     st.warning("No saved session found.")
 
 #Streamlit run Frontend Resume
+
 
 
