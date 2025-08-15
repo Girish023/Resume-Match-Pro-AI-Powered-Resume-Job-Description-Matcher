@@ -118,3 +118,4 @@ def upload_resume():
 if __name__ == '__main__':
     app.run(debug=True)
 
+#Use the fast api as well
