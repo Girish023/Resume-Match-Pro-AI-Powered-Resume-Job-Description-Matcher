@@ -19,7 +19,7 @@ def load_embed_model():
 
 model = load_embed_model()
 
-# --- Multi-language Support ---
+# --- Multi-language Support --
 lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Spanish"])
 labels = {
     "English": {
@@ -377,6 +377,7 @@ with right_col:
                     st.warning("No saved session found.")
 
 #Streamlit run Frontend Resume
+
 
 
 
