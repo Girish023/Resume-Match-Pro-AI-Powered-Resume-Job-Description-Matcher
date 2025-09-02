@@ -15,7 +15,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 nlp = spacy.load("en_core_web_sm")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Sample job description
+# Sample job descriptions
 job_descriptions = [
     {"title": "Data Scientist", "description": "Build ML models, analyze data, write Python scripts, deploy with Flask."},
     {"title": "AI Engineer", "description": "Work on deep learning, computer vision, transformers, and deploy AI models."},
@@ -119,4 +119,5 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 #Use the fast api as well
+
 
