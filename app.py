@@ -11,7 +11,7 @@ CORS(app)
 UPLOAD_FOLDER = './uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Load NLP models
+# Load NLP model
 nlp = spacy.load("en_core_web_sm")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
@@ -119,6 +119,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 #Use the fast api as well
+
 
 
 
